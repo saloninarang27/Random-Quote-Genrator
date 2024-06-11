@@ -1,0 +1,43 @@
+.saved-quotes {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .saved-quotes h2 {
+    color: #fcf7f7;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .saved-quote {
+    border: 1px solid #f0f4f6;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color:white;
+    background-color: #0ea1f6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .saved-quote:nth-child(odd) {
+    color: #eae0e1;
+    background-color: #262a56;
+  }
+  
+  .saved-quote:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 600px) {
+    .saved-quotes h2 {
+      font-size: 1.5em;
+    }
+  
+    .saved-quote {
+      padding: 8px;
+      font-size: 0.9em;
+    }
+  }
+  

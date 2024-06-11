@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  padding: 20px;
+  /* background-color: #aeb1b7; */
+}
+
+h1 {
+  color: #e6ebf0;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
